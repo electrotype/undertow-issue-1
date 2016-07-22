@@ -22,7 +22,7 @@ public class UndertowIssue1 {
         this.server = builder.build();
 
         this.server.start();
-        System.out.println("Server started at : http://localhost:44444");
+        System.out.println("Call : http://localhost:44444/aaa/bbb");
     }
 
     protected HttpHandler getRootHandler() {
